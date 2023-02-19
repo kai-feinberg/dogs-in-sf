@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: tiempos;
+    src: url(./TiemposTextWeb-Regular.woff2);
+}
+
+/* formats the header portion of the document */
+body{
+    background-color:#0f115f;
+    font-family: 'Poppins',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-feature-settings: 'kern' 1,'onum' 0,'liga' 0,'tnum' 1;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+
+}
+#main-header {
+    padding: 3em 0 5em 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .3);
+    color: #fff;
+    position: relative;
+    background: #000;
+    text-align: center;
+    
+ }
+ 
+ #main-header .container {
+    position: relative;
+    z-index: 2
+ }
+ 
+ #main-header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://sfstandard.com/wp-content/uploads/2022/07/FRANCISCO-DogParks-116.jpg) center 70%;
+    opacity: .6
+ }
+ 
+ #main-header h1 {
+    margin: .9em 0 .5em 0;
+    letter-spacing: 8px;
+    float:center;
+    font-size: 800;
+ }
+ 
+ #main-header p {
+    font-weight: 700
+ }
+ 
+ h2{
+    font-size: 40px;
+    max-width: 40rem;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin:auto;
+    color:white;
+    padding: 4rem 0 0 0;
+    font-family: 'Poppins',Helvetica,Arial,sans-serif;
+ }
+
+ .text_div{
+    max-width: 700px;
+    margin:auto;
+    color:white;
+
+ }
+
+p{
+    display:block;
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 1rem 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: tiempos;
+    letter-spacing: 1px;
+    /*makes space at start and end of p-graph*/
+}
