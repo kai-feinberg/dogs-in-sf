@@ -82,8 +82,8 @@ h2 {
 }
 
 .quote {
-   /* background-color: #72737e; */
-   background-color: #B27946;
+   background-color:  #f27f51;
+   /* background-color: #B27946; */
 
 }
 
@@ -119,8 +119,8 @@ p {
    display: flex;
    max-width: 850px;
    margin:auto;
-   /* background-color:#72737e */
-   background-color: #B27946;
+   background-color: #f27f51;
+   /* background-color: #B27946; */
 }
 
 .flex-child {
