@@ -5,8 +5,8 @@
 
 /* formats the header portion of the document */
 body {
-   /*background: #bc9576; */
-   background: #ccada0;
+   background: #F1D2CE;
+   /* background: #ccada0; */
 
    font-family: 'Poppins', Helvetica, Arial, sans-serif;
    font-size: 18px;
@@ -82,7 +82,9 @@ h2 {
 }
 
 .quote {
-   background-color: #72737e;
+   /* background-color: #72737e; */
+   background-color: #B27946;
+
 }
 
 .quote p {
@@ -117,7 +119,8 @@ p {
    display: flex;
    max-width: 850px;
    margin:auto;
-   background-color:#72737e
+   /* background-color:#72737e */
+   background-color: #B27946;
 }
 
 .flex-child {
@@ -125,7 +128,6 @@ p {
    /* border: 2px solid salmon; */
    padding-top: 1rem;
    padding-bottom: 1rem;
-   max-height: 600px;
 }  
 .flex-child img {
    max-width: 100%;
