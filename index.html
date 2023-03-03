@@ -51,6 +51,7 @@
             align-items: center;
             justify-content: center;
             background-image: url('./images/image1.jpg');
+            background-size:cover;
 
         }
 
@@ -274,7 +275,7 @@
             <div class="quote">
                 <div class="quote-layout">
                     <div class="flex-child">
-                        <img src='./images/cropped_millie.jpg' alt="Image of Elisa Tilley's Dog" />
+                        <img src='./images/image2.jpg' alt="Image of Elisa Tilley's Dog" />
                         <div class="figcaption">
                             Elisa Tilley's dog Millie
                         </div>
@@ -392,7 +393,6 @@
             </article>
 
             <div id="sticky-thing">
-                <p>0</p>
             </div>
         </section>
         <!-- adds extra space at bottom to ensure last step is triggered-->
@@ -426,9 +426,7 @@
 
                 //sticky.backgroundImage = "url("+"'"+img+"'"+")";
 
-                // document.getElementById("sticky-thing").style.backgroundImage=(`url(./images/image.jpg)`)
-
-                document.getElementById("sticky-thing").style.backgroundImage=(`url(./images/image${el.dataset.step}.jpg)`)
+                document.getElementById("sticky-thing").style.backgroundImage=(`url(./images/image${el.dataset.step}.jpg)`);
                 
             }
 
